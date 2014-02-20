@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-CyclingDashboard::Application.config.secret_key_base = '0e4512a0b954439b47943366fc61534c62ccf13801629a27e73fb7a6567d8d2e7b41ca2cecd7723c6956674b11232d4df05275cacf7713a9371a49af3787f84a'
+CyclingDashboard::Application.config.secret_key_base = ENV['SECRET_TOKEN']
